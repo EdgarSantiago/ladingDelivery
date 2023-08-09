@@ -11,6 +11,7 @@ export default function InfinitySwiper() {
       height="100vh"
       justifyContent={"center"}
       align={"center"}
+      className="heros-grandient"
     >
       <SwiperZ />
       <Heading fontSize={"3xl"} fontWeight={"thin"}>

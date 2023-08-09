@@ -7,6 +7,7 @@ import InfinitySwiper from "@/components/index/InfinitySwiper";
 import Navbar from "@/components/index/Navbar";
 import Marquee from "@/components/index/Marquee";
 import HeroDynamic from "@/components/index/HerosDynamic";
+import Footer from "@/components/index/Footer";
 
 export default function Home() {
   const herosDynamics = [
@@ -53,6 +54,7 @@ export default function Home() {
       </Box>
       <Faq />
       <InfinitySwiper />
+      <Footer />
     </Layout>
   );
 }
