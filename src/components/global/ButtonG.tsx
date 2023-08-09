@@ -1,4 +1,5 @@
 import { ButtonGroupProps, Text } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 import { ReactNode } from "react";
 
 export default function ButtonG({
@@ -10,6 +11,9 @@ export default function ButtonG({
 }: ButtonGroupProps) {
   return (
     <Text
+      as={motion.h1}
+      whileHover={{ scale: 1.05 }}
+      className="btn"
       boxShadow={boxShadow}
       textAlign={"center"}
       fontSize={["sm", "md", "lg"]}

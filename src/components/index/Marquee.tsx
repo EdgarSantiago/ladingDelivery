@@ -7,47 +7,47 @@ const MarqueeZ = () => {
   const coolTexts = [
     {
       text: "SELL FOR $5/MO 😎",
-      textColor: "#c4e6ce",
+      textColor: "#c4e1e6",
     },
     {
       text: "SELL FOR $5/MO 🤑",
-      textColor: "#c3eccf",
+      textColor: "#c3e0ec",
     },
     {
       text: "SELL FOR $5/MO 🚀",
-      textColor: "#bce5c8",
+      textColor: "#bcdbe5",
     },
     {
       text: "SELL FOR $5/MO 💰",
-      textColor: "#b3e1c1",
+      textColor: "#b3d8e1",
     },
     {
       text: "SELL FOR $5/MO 🔥",
-      textColor: "#a9e0ba",
+      textColor: "#a9d6e0",
     },
     {
       text: "SELL FOR $5/MO 👍",
-      textColor: "#9adbaf",
+      textColor: "#9acddb",
     },
     {
       text: "SELL FOR $5/MO 🌟",
-      textColor: "#9adbaf",
+      textColor: "#9acedb",
     },
     {
       text: "SELL FOR $5/MO 💎",
-      textColor: "#91deaa",
+      textColor: "#91cfde",
     },
     {
       text: "SELL FOR $5/MO 🌈",
-      textColor: "#85dca1",
+      textColor: "#85c8dc",
     },
     {
       text: "SELL FOR $5/MO 🎉",
-      textColor: "#7ce39d",
+      textColor: "#7cc7e3",
     },
     {
       text: "SELL FOR $5/MO 👏",
-      textColor: "#79E99A",
+      textColor: "#79d8e9",
     },
   ];
 

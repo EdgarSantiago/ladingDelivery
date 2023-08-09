@@ -38,7 +38,7 @@ export default function Faq() {
   return (
     <Flex bg="#18181B" gap={8} py={100}>
       <Container maxW="8xl">
-        <Heading fontSize={["5xl", "5xl", "7xl"]} color="#4BFE85" mb={8}>
+        <Heading fontSize={["5xl", "5xl", "7xl"]} color="#79d8e9" mb={8}>
           FAQ 👽
         </Heading>
         <SimpleGrid spacing={8} columns={[1, 1, 1, 2]} color="white">

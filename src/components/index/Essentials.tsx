@@ -31,7 +31,7 @@ const statData: StatData[] = [
 const Essentials = () => {
   return (
     <Box bg="white">
-      <Container maxW="8xl" p={{ base: 5, md: 10 }}>
+      <Container maxW="8xl" p={{ base: 5, md: 20 }}>
         <Heading textAlign={"center"}>Find all the essentials</Heading>
         <SimpleGrid
           columns={{ base: 1, sm: 2, md: 3 }}

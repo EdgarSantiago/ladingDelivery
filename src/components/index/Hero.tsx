@@ -12,7 +12,7 @@ import ButtonG from "../global/ButtonG";
 
 export default function Hero() {
   return (
-    <Box pb={100} height="100%" minH="60vh" bg="#79E99A">
+    <Box pb={100} height="100%" minH="60vh" bg="#79d8e9">
       <Container maxW="8xl" h="100%">
         <SimpleGrid columns={[1, 1, 1, 2]} h="100%">
           <Col1 />

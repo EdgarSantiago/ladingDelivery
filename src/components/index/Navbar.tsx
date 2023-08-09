@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <Flex
       zIndex={9999}
-      bg="#79E99A"
+      bg="#79d8e9"
       top={0}
       position={"sticky"}
       height={["80px", "90px", "100px"]}
