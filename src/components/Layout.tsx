@@ -23,7 +23,7 @@ export default function Layout({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Alert />
-      <Container p={0} bg="blue.100" minH="100vh" minW="full">
+      <Container p={0} bg="#fafafa" minH="100vh" minW="full">
         {children}
       </Container>
     </>

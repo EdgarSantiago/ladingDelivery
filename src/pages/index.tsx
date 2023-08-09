@@ -49,8 +49,8 @@ export default function Home() {
             reverseColumns={hero.reverse}
           />
         ))}
+        <Essentials />
       </Box>
-      <Essentials />
       <Faq />
       <InfinitySwiper />
     </Layout>
