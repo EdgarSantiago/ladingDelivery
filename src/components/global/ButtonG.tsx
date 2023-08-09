@@ -12,10 +12,10 @@ export default function ButtonG({
     <Text
       boxShadow={boxShadow}
       textAlign={"center"}
-      fontSize="lg"
+      fontSize={["sm", "md", "lg"]}
       w={w}
-      py={4}
-      px={8}
+      py={[3, 3, 4]}
+      px={[4, 6, 8]}
       my={my}
       mx={mx}
       bg="#ffffff"

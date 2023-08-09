@@ -17,8 +17,10 @@ export default function Alert() {
       position={"relative"}
       height="68px"
       bg="#E2F3BB"
+      px={[2, 4, 6, 8]}
+      textAlign={"center"}
     >
-      <Text m="auto" fontSize="lg">
+      <Text m="auto" fontSize={["sm", "sm", "md", "lg"]}>
         Start a free trial and enjoy 3 months of Shopify for $ 1/month on select
         plans.{" "}
         <chakra.span textDecoration={"underline"} fontWeight={"bold"}>
@@ -27,8 +29,8 @@ export default function Alert() {
       </Text>
       <SmallCloseIcon
         position={"absolute"}
-        fontSize={30}
-        right={4}
+        fontSize={[20, 20, 25, 30]}
+        right={[2, 2, 4]}
         top="50%"
         transform={"translateY(-50%)"}
         onClick={() => setdisplay("none")}

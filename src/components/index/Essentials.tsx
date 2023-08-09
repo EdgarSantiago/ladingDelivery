@@ -30,13 +30,13 @@ const statData: StatData[] = [
 
 const Essentials = () => {
   return (
-    <Container maxW="8xl" p={{ base: 5, md: 10 }}>
+    <Container bg="white" maxW="8xl" p={{ base: 5, md: 10 }}>
       <Heading textAlign={"center"}>Find all the essentials</Heading>
       <SimpleGrid
         columns={{ base: 1, sm: 2, md: 3 }}
         spacing={10}
-        mt={12}
-        mb={4}
+        mt={5}
+        mb={5}
       >
         {statData.map((data) => (
           <Box

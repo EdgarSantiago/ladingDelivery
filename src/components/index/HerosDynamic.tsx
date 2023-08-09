@@ -22,9 +22,9 @@ export default function HeroDynamic({
   description,
 }: HeroDynamicPro) {
   return (
-    <Box pb={100} height="100vh">
-      <Container minW="8xl" h="100%">
-        <SimpleGrid columns={2} h="100%">
+    <Box minH="100vh" height="100%" my={2}>
+      <Container maxW="8xl" h="100%">
+        <SimpleGrid spacing={[4, 6, 8]} columns={[1, 1, 2, 2]} h="100%">
           {reverseColumns ? (
             <Col2 />
           ) : (
@@ -44,10 +44,14 @@ export default function HeroDynamic({
 function Col1({ title, description }: HeroDynamicPro) {
   return (
     <Flex justify="center" gap={4} direction={"column"} h="100%">
-      <Heading fontSize="6xl" lineHeight={1.1} fontWeight={600}>
+      <Heading
+        fontSize={["2xl", "3xl", "4xl", "5xl", "6xl"]}
+        lineHeight={1.1}
+        fontWeight={600}
+      >
         {title}
       </Heading>
-      <Text fontSize="2xl">{description}</Text>
+      <Text fontSize={["md", "lg", "1xl", "2xl"]}>{description}</Text>
     </Flex>
   );
 }

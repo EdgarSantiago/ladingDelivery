@@ -12,9 +12,9 @@ import ButtonG from "../global/ButtonG";
 
 export default function Hero() {
   return (
-    <Box pb={100} height="60vh" bg="#79E99A">
-      <Container minW="8xl" h="100%">
-        <SimpleGrid columns={2} h="100%">
+    <Box pb={100} height="100%" minH="60vh" bg="#79E99A">
+      <Container maxW="8xl" h="100%">
+        <SimpleGrid columns={[1, 1, 1, 2]} h="100%">
           <Col1 />
           <Col2 />
         </SimpleGrid>
@@ -26,11 +26,15 @@ export default function Hero() {
 function Col1() {
   return (
     <Flex justify="center" gap={4} direction={"column"} h="100%">
-      <Text fontSize="2xl">STARTER PLAN</Text>
-      <Heading fontSize="6xl" lineHeight={1.1} fontWeight={600}>
+      <Text fontSize={["lg", "xl", "1xl", "2xl"]}>STARTER PLAN</Text>
+      <Heading
+        fontSize={["3xl", "4xl", "5xl", "6xl"]}
+        lineHeight={1.1}
+        fontWeight={600}
+      >
         Create a simple store in minutes
       </Heading>
-      <Text fontSize="2xl">
+      <Text fontSize={["lg", "xl", "1xl", "2xl"]}>
         Easy no-code setup. Perfect for sharing products across social.
       </Text>
 
@@ -47,8 +51,8 @@ function Col1() {
 
 function Col2() {
   return (
-    <Flex justify="center" gap={4} direction={"column"} h="100%">
-      <Image mx="auto" src="/col2.png" h="500px" w="450px" />
+    <Flex justify="center" align="center" gap={4} direction={"column"} h="100%">
+      <Image mx="auto" my={"auto"} src="/col2.png" h="500px" w="450px" />
     </Flex>
   );
 }

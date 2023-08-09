@@ -41,7 +41,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Marquee />
-      <Box className="heros-grandient">
+      <Box pt={10} className="heros-grandient">
         {herosDynamics.map((hero, i) => (
           <HeroDynamic
             key={i}
@@ -53,8 +53,8 @@ export default function Home() {
         <Essentials />
       </Box>
       <Faq />
-      <InfinitySwiper />
-      <Footer />
+      {/*<InfinitySwiper />
+      <Footer />*/}
     </Layout>
   );
 }
