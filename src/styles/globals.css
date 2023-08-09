@@ -49,3 +49,19 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
+.shadow-color {
+  --tw-shadow: 18px 18px 0 -4px #79dfff, 18px 18px 0 0 #1f1f1f;
+  --tw-shadow-colored: 18px 18px 0 -4px var(--tw-shadow-color),
+    18px 18px 0 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-color-swiper {
+  --tw-shadow: 14px 14px 0 -4px #fafafa, 14px 14px 0 0 #1f1f1f;
+  --tw-shadow-colored: 14px 14px 0 -4px var(--tw-shadow-color),
+    14px 14px 0 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
