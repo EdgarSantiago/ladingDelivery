@@ -26,24 +26,27 @@ export default function Hero() {
 function Col1() {
   return (
     <Flex justify="center" gap={4} direction={"column"} h="100%">
-      <Text fontSize={["lg", "xl", "1xl", "2xl"]}>STARTER PLAN</Text>
+      <Text fontSize={["lg", "xl", "1xl", "2xl"]}>PLANO INICIAL</Text>
       <Heading
         fontSize={["3xl", "4xl", "5xl", "6xl"]}
         lineHeight={1.1}
         fontWeight={600}
       >
-        Create a simple store in minutes
+        O Futuro das Entregas está Aqui
       </Heading>
       <Text fontSize={["lg", "xl", "1xl", "2xl"]}>
-        Easy no-code setup. Perfect for sharing products across social.
+        Potencialize o seu negócio de entregas com nosso aplicativo de última
+        geração. O Plano Inicial oferece uma configuração simples e intuitiva,
+        perfeito para promover seus produtos através das redes sociais.
       </Text>
 
       <ButtonG mx="auto" w="80%" boxShadow={"4px 4px 0px #111111"}>
-        GET STARTED FREE
+        Começar Agora
       </ButtonG>
 
       <chakra.span mx="auto">
-        try shopify for free, no credit card required
+        Experimente nosso aplicativo gratuitamente - Sem necessidade de cartão
+        de crédito.
       </chakra.span>
     </Flex>
   );

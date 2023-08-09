@@ -7,24 +7,24 @@ interface StatData {
   score: string;
 }
 
-const statData: StatData[] = [
+const statData = [
   {
     id: 1,
-    label: "📦 Order management",
+    label: "📦 Gerenciamento de Pedidos",
     score:
-      "Receive, manage, and fulfill orders—all from a single place within your admin.",
+      "Receba, gerencie e cumpra pedidos, tudo de um único lugar em seu painel de administração.",
   },
   {
     id: 2,
-    label: "🚀 Analytics",
+    label: "🚀 Análises",
     score:
-      "See key performance metrics to learn about your sales and customers.",
+      "Veja métricas-chave de desempenho para entender suas vendas e clientes.",
   },
   {
     id: 3,
-    label: "🤝 Customer support",
+    label: "🤝 Suporte ao Cliente",
     score:
-      "Questions? Get the support you need to start, run, and grow your business.",
+      "Dúvidas? Obtenha o suporte necessário para iniciar, administrar e expandir seu negócio.",
   },
 ];
 
@@ -32,7 +32,7 @@ const Essentials = () => {
   return (
     <Box bg="white">
       <Container maxW="8xl" p={{ base: 5, md: 20 }}>
-        <Heading textAlign={"center"}>Find all the essentials</Heading>
+        <Heading textAlign={"center"}>Elementos fundamentais.</Heading>
         <SimpleGrid
           columns={{ base: 1, sm: 2, md: 3 }}
           spacing={10}

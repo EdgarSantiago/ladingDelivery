@@ -12,30 +12,31 @@ import Footer from "@/components/index/Footer";
 export default function Home() {
   const herosDynamics = [
     {
-      heading: "Jump straight to selling 🦘",
+      heading: "Pule direto para as vendas 🚀",
       description:
-        "With Starter, your store is ready to go in just a few clicks. All you need is an image and a slick description of the product or service you’re selling. It’s that simple!",
+        "Com nosso aplicativo de delivery, você pode começar a receber pedidos em poucos minutos. Configure seus produtos e serviços rapidamente e esteja pronto para atender seus clientes.",
       reverse: false,
     },
     {
-      heading: "Selling powered for social 💸",
+      heading: "Entregas Simplificadas 💼",
       description:
-        "Easily share products on Instagram, WhatsApp, or anywhere else—providing customers quick and reliable transactions with Shopify checkout.",
+        "Compartilhe facilmente seus produtos de delivery nas redes sociais, permitindo que seus clientes façam pedidos de forma rápida e conveniente, diretamente pelo aplicativo.",
       reverse: true,
     },
     {
-      heading: "Monetize your link in bio 🤑",
+      heading: "Aproveite a Visibilidade nas Redes Sociais 📢",
       description:
-        "Want more ways to sell on social? Create a Linkpop page in minutes that drives followers to your top products and content, all via your bio link.",
+        "Monetize seus seguidores nas redes sociais. Promova seus produtos de delivery por meio de posts e stories, direcionando seus clientes para o app e aumentando suas vendas.",
       reverse: false,
     },
     {
-      heading: "Grow as you go 💰",
+      heading: "Cresça com Seu Negócio 🌱",
       description:
-        "From hashtags to cash bags, Shopify is here with you. Start small and upgrade your plan whenever you’re ready to unlock new features and selling capabilities. Need help developing your brand? Explore Shopify’s free tools to help you grow it.",
+        "À medida que seu negócio de delivery prospera, nosso aplicativo cresce com você. Atualize recursos e capacidades à medida que você expande sua base de clientes e otimize suas operações de entrega.",
       reverse: true,
     },
   ];
+
   return (
     <Layout title="Início">
       <Navbar />

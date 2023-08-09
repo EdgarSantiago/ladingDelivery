@@ -16,10 +16,11 @@ export default function InfinitySwiper() {
     >
       <SwiperZ />
       <Heading px={2} fontSize={["md", "lg", "2xl", "3xl"]} fontWeight={"thin"}>
-        Whether you want to start selling or test drive an idea, Shopify has all
-        the tools you need to get going.
+        Seja para começar a vender ou testar uma ideia, o nosso aplicativo de
+        delivery oferece todas as ferramentas necessárias para dar o pontapé
+        inicial.
       </Heading>
-      <ButtonG w={["80%", "70%", "60%", "50%"]}>GET STARTED FREE</ButtonG>
+      <ButtonG w={["80%", "70%", "60%", "50%"]}>COMEÇAR AGORA</ButtonG>
     </Flex>
   );
 }
