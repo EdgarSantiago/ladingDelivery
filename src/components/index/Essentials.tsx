@@ -30,31 +30,33 @@ const statData: StatData[] = [
 
 const Essentials = () => {
   return (
-    <Container bg="white" maxW="8xl" p={{ base: 5, md: 10 }}>
-      <Heading textAlign={"center"}>Find all the essentials</Heading>
-      <SimpleGrid
-        columns={{ base: 1, sm: 2, md: 3 }}
-        spacing={10}
-        mt={5}
-        mb={5}
-      >
-        {statData.map((data) => (
-          <Box
-            className="shadow-color"
-            bg="white"
-            key={data.id}
-            p={5}
-            rounded="md"
-            border="4px solid #111111"
-          >
-            <Text fontWeight="extrabold" fontSize="x-large">
-              {data.label}
-            </Text>
-            <Text>{data.score}</Text>
-          </Box>
-        ))}
-      </SimpleGrid>
-    </Container>
+    <Box bg="white">
+      <Container maxW="8xl" p={{ base: 5, md: 10 }}>
+        <Heading textAlign={"center"}>Find all the essentials</Heading>
+        <SimpleGrid
+          columns={{ base: 1, sm: 2, md: 3 }}
+          spacing={10}
+          mt={5}
+          mb={5}
+        >
+          {statData.map((data) => (
+            <Box
+              className="shadow-color"
+              bg="white"
+              key={data.id}
+              p={5}
+              rounded="md"
+              border="4px solid #111111"
+            >
+              <Text fontWeight="extrabold" fontSize="x-large">
+                {data.label}
+              </Text>
+              <Text>{data.score}</Text>
+            </Box>
+          ))}
+        </SimpleGrid>
+      </Container>
+    </Box>
   );
 };
 

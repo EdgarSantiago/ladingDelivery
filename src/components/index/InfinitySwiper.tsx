@@ -12,13 +12,14 @@ export default function InfinitySwiper() {
       justifyContent={"center"}
       align={"center"}
       className="heros-grandient"
+      textAlign={"center"}
     >
       <SwiperZ />
-      <Heading fontSize={"3xl"} fontWeight={"thin"}>
+      <Heading px={2} fontSize={["md", "lg", "2xl", "3xl"]} fontWeight={"thin"}>
         Whether you want to start selling or test drive an idea, Shopify has all
         the tools you need to get going.
       </Heading>
-      <ButtonG w="50%">GET STARTED FREE</ButtonG>
+      <ButtonG w={["80%", "70%", "60%", "50%"]}>GET STARTED FREE</ButtonG>
     </Flex>
   );
 }
@@ -62,7 +63,7 @@ const SwiperZ = () => {
           objectFit={"cover"}
           h="50vh"
           w="250px"
-          mx={10}
+          mx={[5, 6, 7, 8, 10]}
           rounded="md"
         />
       ))}

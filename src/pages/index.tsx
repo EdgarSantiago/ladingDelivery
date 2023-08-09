@@ -53,8 +53,8 @@ export default function Home() {
         <Essentials />
       </Box>
       <Faq />
-      {/*<InfinitySwiper />
-      <Footer />*/}
+      <InfinitySwiper />
+      <Footer />
     </Layout>
   );
 }

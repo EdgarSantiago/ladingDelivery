@@ -37,16 +37,19 @@ export default function Faq() {
 
   return (
     <Flex bg="#18181B" gap={8} py={100}>
-      <Container minW="8xl">
-        <Heading fontSize="7xl" color="#4BFE85" mb={8}>
+      <Container maxW="8xl">
+        <Heading fontSize={["5xl", "5xl", "7xl"]} color="#4BFE85" mb={8}>
           FAQ 👽
         </Heading>
-        <SimpleGrid spacing={8} columns={2} color="white">
+        <SimpleGrid spacing={8} columns={[1, 1, 1, 2]} color="white">
           <Accordion>
             {accordions1.map((v, i) => (
               <AccordionItem key={i} py={5}>
                 <AccordionButton>
-                  <Heading fontSize="3xl">
+                  <Heading
+                    textAlign={"start"}
+                    fontSize={["xl", "1xl", "2xl", "3xl"]}
+                  >
                     {v.heading}
                     <AccordionIcon />
                   </Heading>
@@ -59,7 +62,10 @@ export default function Faq() {
             {accordions1.map((v, i) => (
               <AccordionItem key={i} py={5}>
                 <AccordionButton>
-                  <Heading fontSize="3xl">
+                  <Heading
+                    textAlign={"start"}
+                    fontSize={["xl", "1xl", "2xl", "3xl"]}
+                  >
                     {v.heading}
                     <AccordionIcon />
                   </Heading>
