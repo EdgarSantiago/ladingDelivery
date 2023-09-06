@@ -34,7 +34,7 @@ const Essentials = () => {
       <Container maxW="8xl" p={{ base: 5, md: 20 }}>
         <Heading textAlign={"center"}>Elementos fundamentais.</Heading>
         <SimpleGrid
-          columns={{ base: 1, sm: 2, md: 3 }}
+          columns={{ base: 1, sm: 1, lg: 3 }}
           spacing={10}
           mt={5}
           mb={5}

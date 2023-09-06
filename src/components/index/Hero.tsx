@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <Box pb={100} height="100%" minH="60vh" bg="#79d8e9">
       <Container maxW="8xl" h="100%">
-        <SimpleGrid columns={[1, 1, 1, 2]} h="100%">
+        <SimpleGrid columns={[1, 1, 1, 2]} h="100%" gap={4}>
           <Col1 />
           <Col2 />
         </SimpleGrid>
@@ -44,7 +44,7 @@ function Col1() {
         Começar Agora
       </ButtonG>
 
-      <chakra.span mx="auto">
+      <chakra.span mx="auto" textAlign={"center"}>
         Experimente nosso aplicativo gratuitamente - Sem necessidade de cartão
         de crédito.
       </chakra.span>

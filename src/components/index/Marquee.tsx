@@ -61,12 +61,12 @@ const MarqueeZ = () => {
         gradientWidth={200}
         style={{ minWidth: "100%" }}
       >
-        {coolTexts.map((v, y) => (
+        {coolTexts.map((v, i) => (
           <Heading
             color={v.textColor}
             fontSize="3xl"
             mx="5"
-            key={y}
+            key={i}
             minW="100%"
           >
             {v.text}

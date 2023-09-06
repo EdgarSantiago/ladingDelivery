@@ -56,8 +56,9 @@ const SwiperZ = () => {
       gradientWidth={200}
       style={{ minWidth: "100%", paddingBottom: 20, paddingTop: 20 }}
     >
-      {coolTexts.map((v, y) => (
+      {coolTexts.map((v, i) => (
         <Image
+          key={i}
           border="4px"
           className="shadow-color-swiper"
           src={v.src}
